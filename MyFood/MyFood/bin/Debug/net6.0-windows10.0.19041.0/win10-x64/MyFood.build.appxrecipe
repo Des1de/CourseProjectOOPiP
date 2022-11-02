@@ -952,6 +952,21 @@
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\berger.scale-100.jpg">
       <PackagePath>berger.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bwburger.scale-100.png">
+      <PackagePath>bwburger.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bwburger.scale-125.png">
+      <PackagePath>bwburger.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bwburger.scale-150.png">
+      <PackagePath>bwburger.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bwburger.scale-200.png">
+      <PackagePath>bwburger.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bwburger.scale-400.png">
+      <PackagePath>bwburger.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>

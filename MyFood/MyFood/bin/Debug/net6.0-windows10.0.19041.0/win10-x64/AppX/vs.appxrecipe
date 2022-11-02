@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\CourseProject\MyFood\MyFood\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-01T18:23:51.520</Modified>
+      <Modified>2022-11-02T13:43:41.796</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-01T18:23:50.683</Modified>
+      <Modified>2022-11-02T13:43:41.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MyFood.runtimeconfig.json">
       <PackagePath>MyFood.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MyFood.dll">
       <PackagePath>MyFood.dll</PackagePath>
-      <Modified>2022-11-01T18:23:47.540</Modified>
+      <Modified>2022-11-02T13:43:39.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MyFood.exe</PackagePath>
-      <Modified>2022-11-01T18:23:47.584</Modified>
+      <Modified>2022-11-02T13:43:39.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Des1de\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.10\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1075,7 +1075,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MyFood.deps.json">
       <PackagePath>MyFood.deps.json</PackagePath>
-      <Modified>2022-11-01T18:23:51.200</Modified>
+      <Modified>2022-11-02T13:43:41.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.541\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1143,131 +1143,151 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-10-31T14:28:45.371</Modified>
+      <Modified>2022-11-02T13:36:40.834</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.606</Modified>
+      <Modified>2022-11-02T13:36:41.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.620</Modified>
+      <Modified>2022-11-02T13:36:41.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.639</Modified>
+      <Modified>2022-11-02T13:36:41.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.667</Modified>
+      <Modified>2022-11-02T13:36:41.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.759</Modified>
+      <Modified>2022-11-02T13:36:41.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.376</Modified>
+      <Modified>2022-11-02T13:36:40.839</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.379</Modified>
+      <Modified>2022-11-02T13:36:40.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.385</Modified>
+      <Modified>2022-11-02T13:36:40.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.388</Modified>
+      <Modified>2022-11-02T13:36:40.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.394</Modified>
+      <Modified>2022-11-02T13:36:40.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.456</Modified>
+      <Modified>2022-11-02T13:36:40.902</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.461</Modified>
+      <Modified>2022-11-02T13:36:40.906</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.469</Modified>
+      <Modified>2022-11-02T13:36:40.913</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.479</Modified>
+      <Modified>2022-11-02T13:36:40.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.502</Modified>
+      <Modified>2022-11-02T13:36:40.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.423</Modified>
+      <Modified>2022-11-02T13:36:40.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.427</Modified>
+      <Modified>2022-11-02T13:36:40.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.430</Modified>
+      <Modified>2022-11-02T13:36:40.885</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.435</Modified>
+      <Modified>2022-11-02T13:36:40.889</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.451</Modified>
+      <Modified>2022-11-02T13:36:40.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.397</Modified>
+      <Modified>2022-11-02T13:36:40.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.399</Modified>
+      <Modified>2022-11-02T13:36:40.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.402</Modified>
+      <Modified>2022-11-02T13:36:40.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.414</Modified>
+      <Modified>2022-11-02T13:36:40.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.420</Modified>
+      <Modified>2022-11-02T13:36:40.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.509</Modified>
+      <Modified>2022-11-02T13:36:40.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.518</Modified>
+      <Modified>2022-11-02T13:36:40.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.527</Modified>
+      <Modified>2022-11-02T13:36:40.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.543</Modified>
+      <Modified>2022-11-02T13:36:40.979</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.596</Modified>
+      <Modified>2022-11-02T13:36:41.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\berger.scale-100.jpg">
       <PackagePath>berger.scale-100.jpg</PackagePath>
       <Modified>2022-10-30T12:45:52.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bwburger.scale-100.png">
+      <PackagePath>bwburger.scale-100.png</PackagePath>
+      <Modified>2022-11-02T13:36:40.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bwburger.scale-125.png">
+      <PackagePath>bwburger.scale-125.png</PackagePath>
+      <Modified>2022-11-02T13:36:40.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bwburger.scale-150.png">
+      <PackagePath>bwburger.scale-150.png</PackagePath>
+      <Modified>2022-11-02T13:36:40.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bwburger.scale-200.png">
+      <PackagePath>bwburger.scale-200.png</PackagePath>
+      <Modified>2022-11-02T13:36:40.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bwburger.scale-400.png">
+      <PackagePath>bwburger.scale-400.png</PackagePath>
+      <Modified>2022-11-02T13:36:40.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
@@ -1291,23 +1311,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pizza.scale-100.png">
       <PackagePath>pizza.scale-100.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.729</Modified>
+      <Modified>2022-11-02T13:36:40.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pizza.scale-125.png">
       <PackagePath>pizza.scale-125.png</PackagePath>
-      <Modified>2022-10-31T14:28:45.843</Modified>
+      <Modified>2022-11-02T13:36:41.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pizza.scale-150.png">
       <PackagePath>pizza.scale-150.png</PackagePath>
-      <Modified>2022-10-31T14:28:46.005</Modified>
+      <Modified>2022-11-02T13:36:41.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pizza.scale-200.png">
       <PackagePath>pizza.scale-200.png</PackagePath>
-      <Modified>2022-10-31T14:28:46.229</Modified>
+      <Modified>2022-11-02T13:36:41.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pizza.scale-400.png">
       <PackagePath>pizza.scale-400.png</PackagePath>
-      <Modified>2022-10-31T14:28:46.934</Modified>
+      <Modified>2022-11-02T13:36:42.062</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

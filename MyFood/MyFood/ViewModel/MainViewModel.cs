@@ -17,5 +17,11 @@ public partial class MainViewModel : ObservableObject
     {
         await Shell.Current.GoToAsync(nameof(RegestrationPage));
     }
+
+    [RelayCommand]
+    async Task SignIn(string s)
+    {
+        await Shell.Current.GoToAsync(nameof(ClientPage));
+    }
 }
 

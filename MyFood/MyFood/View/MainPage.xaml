@@ -7,39 +7,43 @@
              xmlns:viewmodel="clr-namespace:MyFood.ViewModel"
              x:DataType="viewmodel:MainViewModel"
              Shell.BackgroundColor ="Black"
+            
              >
+    
     <Page.Behaviors>
         <mct:StatusBarBehavior StatusBarColor="Black"
                                StatusBarStyle="Default"></mct:StatusBarBehavior>
     </Page.Behaviors>
-    
-<Grid HeightRequest ="500"
-              VerticalOptions="Start"
-              Padding="10">
+
+    <StackLayout>
+        <Grid HeightRequest ="700"
+              VerticalOptions="Center"
+      BackgroundColor="White"
+              Padding="10"
+               RowSpacing="20"
+      >
             <Grid.RowDefinitions>
-                <RowDefinition Height="2*"/>
-                <RowDefinition Height="2*"/>
-                <RowDefinition Height="2*"/>
-                <RowDefinition Height="3*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="2*"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
-       
-            <Label Text="Добро пожаловать" 
-                   Grid.Row ="0"
-                   HorizontalOptions="Center"
-                   FontAttributes="Bold"
-                   VerticalOptions="Center"
-                   TextColor="Black"
-                   FontSize="32"
-                   BackgroundColor="White">
-            </Label>
 
+        <Frame BackgroundColor="White"
+               HeightRequest="120"
+               WidthRequest="120"
+               CornerRadius="90"
+               >
+            <Image Source="bwburger.svg" WidthRequest="100"
+               ></Image>
+        </Frame>
         <Frame BorderColor="Black"
-               BackgroundColor="Transparent"
+               BackgroundColor="WhiteSmoke"
                
                CornerRadius="20"
                HeightRequest="55"
@@ -63,7 +67,7 @@
 
 
         <Frame BorderColor="Black"
-               BackgroundColor="Transparent"
+               BackgroundColor="WhiteSmoke"
                
                CornerRadius="20"
                HeightRequest="55"
@@ -83,8 +87,8 @@
                    TextColor="Black">
             </Entry>
         </Frame>
-        <Button Grid.Row="3"
-                    
+        <Button Grid.Row="4"
+                
                 Text="Войти"
                 BorderWidth="3"
                 WidthRequest="200"
@@ -94,11 +98,12 @@
                 BackgroundColor ="White"
                 BorderColor="Black"
                 CornerRadius="20"
+                Command="{Binding SignInCommand}"
                 >
                 
             </Button>
 
-            <Button Grid.Row="4"
+            <Button Grid.Row="5"
                 Text="Регистрация"
                 BorderWidth="3"
                 WidthRequest="200"
@@ -115,6 +120,6 @@
             </Button>
 
     </Grid>
-     
+    </StackLayout>
 
 </ContentPage>
