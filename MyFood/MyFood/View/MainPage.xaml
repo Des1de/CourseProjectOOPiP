@@ -38,45 +38,62 @@
                    BackgroundColor="White">
             </Label>
 
-        
+        <Frame BorderColor="Black"
+               BackgroundColor="Transparent"
+               
+               CornerRadius="20"
+               HeightRequest="55"
+               WidthRequest="270"
+               Grid.Row="1">
             <Entry Placeholder="Логин"
                    Text="{Binding Login}"
                    FontSize="24"
                    MaxLength="16"
-                   Grid.Row="1"
                    VerticalOptions="Center"
                    HorizontalOptions="Center"
                    PlaceholderColor="Black"
                    FontAttributes="Bold"
                    WidthRequest="250"
+                   HeightRequest="50"
                    TextColor="Black">
+                
             </Entry>
-        
+        </Frame>
 
 
+
+        <Frame BorderColor="Black"
+               BackgroundColor="Transparent"
+               
+               CornerRadius="20"
+               HeightRequest="55"
+               WidthRequest="270"
+               Grid.Row="2">
             <Entry Placeholder="Пароль"
                    Text ="{Binding Password}"
                    FontSize="24"
                    MaxLength="20"
-                   Grid.Row="2"
                    IsPassword="True"
                    VerticalOptions="Center"
                    HorizontalOptions="Center"
                    PlaceholderColor="Black"
                    FontAttributes="Bold"
                    WidthRequest="250"
+               HeightRequest="50"
                    TextColor="Black">
             </Entry>
-            <Button Grid.Row="3"
+        </Frame>
+        <Button Grid.Row="3"
                     
                 Text="Войти"
                 BorderWidth="3"
-                WidthRequest="250"
+                WidthRequest="200"
                 HeightRequest="50"
                 TextColor="Black"
                 FontSize="20"
                 BackgroundColor ="White"
                 BorderColor="Black"
+                CornerRadius="20"
                 >
                 
             </Button>
@@ -84,19 +101,18 @@
             <Button Grid.Row="4"
                 Text="Регистрация"
                 BorderWidth="3"
-                WidthRequest="250"
+                WidthRequest="200"
                 HeightRequest="50"
                 TextColor="Black"
                 FontSize="20"
                 BackgroundColor ="White"
                 BorderColor="Black"
+                    CornerRadius="20"
                Command="{Binding RegestrationCommand}"
                 >
                
            
             </Button>
-      
-
 
     </Grid>
      
