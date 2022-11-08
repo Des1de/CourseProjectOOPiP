@@ -11,7 +11,42 @@
         <mct:StatusBarBehavior StatusBarColor="Black"
                                StatusBarStyle="Default"></mct:StatusBarBehavior>
     </Page.Behaviors>
+    <Grid RowDefinitions=".25*, .65*, .10*"
+          Padding="30"
+          RowSpacing="20"
+          ColumnSpacing="20">
+        <Frame BackgroundColor="White"
+               HeightRequest="120"
+               WidthRequest="120"
+               CornerRadius="90"
+               >
+            <Image Source="bwburger.svg" WidthRequest="100"
+               ></Image>
+        </Frame>
+        <CollectionView Grid.Row="1">
+            <CollectionView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>АААААААА</x:String>
+                    <x:String>АААААААА</x:String>
+                    <x:String>АААААААА</x:String>
+                    <x:String>АААААААА</x:String>
+                </x:Array>
+            </CollectionView.ItemsSource>
+        </CollectionView>
+        <Frame BackgroundColor="White"
+               HeightRequest="75"
+               WidthRequest="75"
+               CornerRadius="90"
+               Grid.Row="2"
+               >
+            <Image Source="basket.svg" WidthRequest="70"
+               ></Image>
+        </Frame>
+
+
+    </Grid>
     
+
    
     
 </ContentPage>

@@ -18,10 +18,9 @@
     <StackLayout>
         <Grid HeightRequest ="700"
               VerticalOptions="Center"
-      BackgroundColor="White"
+              BackgroundColor="White"
               Padding="10"
-               RowSpacing="20"
-      >
+              RowSpacing="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="200"/>
                 <RowDefinition Height="50"/>
