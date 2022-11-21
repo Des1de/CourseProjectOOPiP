@@ -23,16 +23,8 @@
             <Image Source="bwburger.svg" WidthRequest="100"
                ></Image>
         </Frame>
-        <CollectionView Grid.Row="1">
-            <CollectionView.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>АААААААА</x:String>
-                    <x:String>АААААААА</x:String>
-                    <x:String>АААААААА</x:String>
-                    <x:String>АААААААА</x:String>
-                </x:Array>
-            </CollectionView.ItemsSource>
-        </CollectionView>
+
+        
         <Frame BackgroundColor="White"
                HeightRequest="75"
                WidthRequest="75"
