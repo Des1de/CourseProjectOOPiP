@@ -1,12 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using System.ComponentModel;
 
 namespace MyFood.Model
 {
-    internal class User
+    public partial class User : ObservableObject
     {
+        [ObservableProperty]
+        bool _isSignedIn;
+
+        public string UserName { get; set; }
+
+        public User()
+        {
+            IsSignedIn = false;
+            UserName = null;
+            PropertyChanged += SignedIn;
+        }
+
+        void SignedIn(object sender, PropertyChangedEventArgs e)
+        {
+            if (e.PropertyName != nameof(IsSignedIn)) return;
+        }
     }
 }

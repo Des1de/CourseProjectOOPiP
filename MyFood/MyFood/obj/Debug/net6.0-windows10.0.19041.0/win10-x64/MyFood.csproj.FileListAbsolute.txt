@@ -362,3 +362,9 @@ D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\re
 D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bwburger.scale-150.png
 D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bwburger.scale-200.png
 D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bwburger.scale-400.png
+D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\basket.scale-100.png
+D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\basket.scale-125.png
+D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\basket.scale-150.png
+D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\basket.scale-200.png
+D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\basket.scale-400.png
+D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\kolbasa.scale-100.jpg

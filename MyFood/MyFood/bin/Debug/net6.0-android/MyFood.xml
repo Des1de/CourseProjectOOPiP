@@ -4,23 +4,86 @@
         <name>MyFood</name>
     </assembly>
     <members>
-        <member name="P:MyFood.ViewModel.MainViewModel.Login">
-            <inheritdoc cref="F:MyFood.ViewModel.MainViewModel.login"/>
+        <member name="P:MyFood.Model.User.IsSignedIn">
+            <inheritdoc cref="F:MyFood.Model.User._isSignedIn"/>
         </member>
-        <member name="P:MyFood.ViewModel.MainViewModel.Password">
-            <inheritdoc cref="F:MyFood.ViewModel.MainViewModel.password"/>
+        <member name="P:MyFood.ViewModel.AuthorizationViewModel.Login">
+            <inheritdoc cref="F:MyFood.ViewModel.AuthorizationViewModel.login"/>
         </member>
-        <member name="F:MyFood.ViewModel.MainViewModel.regestrationCommand">
-            <summary>The backing field for <see cref="P:MyFood.ViewModel.MainViewModel.RegestrationCommand"/>.</summary>
+        <member name="P:MyFood.ViewModel.AuthorizationViewModel.Password">
+            <inheritdoc cref="F:MyFood.ViewModel.AuthorizationViewModel.password"/>
         </member>
-        <member name="P:MyFood.ViewModel.MainViewModel.RegestrationCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MyFood.ViewModel.MainViewModel.Regestration(System.String)"/>.</summary>
+        <member name="P:MyFood.ViewModel.AuthorizationViewModel.ErrorMessage">
+            <inheritdoc cref="F:MyFood.ViewModel.AuthorizationViewModel.errorMessage"/>
         </member>
-        <member name="F:MyFood.ViewModel.MainViewModel.signInCommand">
-            <summary>The backing field for <see cref="P:MyFood.ViewModel.MainViewModel.SignInCommand"/>.</summary>
+        <member name="F:MyFood.ViewModel.AuthorizationViewModel.signUpCommand">
+            <summary>The backing field for <see cref="P:MyFood.ViewModel.AuthorizationViewModel.SignUpCommand"/>.</summary>
         </member>
-        <member name="P:MyFood.ViewModel.MainViewModel.SignInCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MyFood.ViewModel.MainViewModel.SignIn(System.String)"/>.</summary>
+        <member name="P:MyFood.ViewModel.AuthorizationViewModel.SignUpCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MyFood.ViewModel.AuthorizationViewModel.SignUp(System.String)"/>.</summary>
+        </member>
+        <member name="F:MyFood.ViewModel.AuthorizationViewModel.signInCommand">
+            <summary>The backing field for <see cref="P:MyFood.ViewModel.AuthorizationViewModel.SignInCommand"/>.</summary>
+        </member>
+        <member name="P:MyFood.ViewModel.AuthorizationViewModel.SignInCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MyFood.ViewModel.AuthorizationViewModel.SignIn(System.String)"/>.</summary>
+        </member>
+        <member name="P:MyFood.ViewModel.BaseViewModel.Title">
+            <inheritdoc cref="F:MyFood.ViewModel.BaseViewModel._title"/>
+        </member>
+        <member name="P:MyFood.ViewModel.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:MyFood.ViewModel.BaseViewModel._isBusy"/>
+        </member>
+        <member name="P:MyFood.ViewModel.BaseViewModel.IsSuccessful">
+            <inheritdoc cref="F:MyFood.ViewModel.BaseViewModel.isSuccessful"/>
+        </member>
+        <member name="P:MyFood.ViewModel.BaseViewModel.IsFailed">
+            <inheritdoc cref="F:MyFood.ViewModel.BaseViewModel.isFailed"/>
+        </member>
+        <member name="P:MyFood.ViewModel.ClientViewModel.Dishes">
+            <inheritdoc cref="F:MyFood.ViewModel.ClientViewModel.dishes"/>
+        </member>
+        <member name="P:MyFood.ViewModel.ClientViewModel.IsEmpty">
+            <inheritdoc cref="F:MyFood.ViewModel.ClientViewModel.isEmpty"/>
+        </member>
+        <member name="F:MyFood.ViewModel.ClientViewModel.cartCommand">
+            <summary>The backing field for <see cref="P:MyFood.ViewModel.ClientViewModel.CartCommand"/>.</summary>
+        </member>
+        <member name="P:MyFood.ViewModel.ClientViewModel.CartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MyFood.ViewModel.ClientViewModel.Cart(System.String)"/>.</summary>
+        </member>
+        <member name="F:MyFood.ViewModel.ClientViewModel.goToProductCommand">
+            <summary>The backing field for <see cref="P:MyFood.ViewModel.ClientViewModel.GoToProductCommand"/>.</summary>
+        </member>
+        <member name="P:MyFood.ViewModel.ClientViewModel.GoToProductCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MyFood.ViewModel.ClientViewModel.GoToProduct(MyFood.Model.Dish)"/>.</summary>
+        </member>
+        <member name="P:MyFood.ViewModel.DishDetailsViewModel.CurrentDish">
+            <inheritdoc cref="F:MyFood.ViewModel.DishDetailsViewModel._currentDish"/>
+        </member>
+        <member name="F:MyFood.ViewModel.DishDetailsViewModel.addToCartCommand">
+            <summary>The backing field for <see cref="P:MyFood.ViewModel.DishDetailsViewModel.AddToCartCommand"/>.</summary>
+        </member>
+        <member name="P:MyFood.ViewModel.DishDetailsViewModel.AddToCartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MyFood.ViewModel.DishDetailsViewModel.AddToCart(MyFood.Model.Dish)"/>.</summary>
+        </member>
+        <member name="P:MyFood.ViewModel.RegistrationViewModel.Login">
+            <inheritdoc cref="F:MyFood.ViewModel.RegistrationViewModel.login"/>
+        </member>
+        <member name="P:MyFood.ViewModel.RegistrationViewModel.Password">
+            <inheritdoc cref="F:MyFood.ViewModel.RegistrationViewModel.password"/>
+        </member>
+        <member name="P:MyFood.ViewModel.RegistrationViewModel.RPassword">
+            <inheritdoc cref="F:MyFood.ViewModel.RegistrationViewModel.rPassword"/>
+        </member>
+        <member name="P:MyFood.ViewModel.RegistrationViewModel.ErrorMessage">
+            <inheritdoc cref="F:MyFood.ViewModel.RegistrationViewModel.errorMessage"/>
+        </member>
+        <member name="F:MyFood.ViewModel.RegistrationViewModel.createAccountCommand">
+            <summary>The backing field for <see cref="P:MyFood.ViewModel.RegistrationViewModel.CreateAccountCommand"/>.</summary>
+        </member>
+        <member name="P:MyFood.ViewModel.RegistrationViewModel.CreateAccountCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MyFood.ViewModel.RegistrationViewModel.CreateAccount"/>.</summary>
         </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
             <summary>

@@ -31,6 +31,11 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
+basket.scale-100.png
+basket.scale-125.png
+basket.scale-150.png
+basket.scale-200.png
+basket.scale-400.png
 berger.scale-100.jpg
 bwburger.scale-100.png
 bwburger.scale-125.png
@@ -42,6 +47,7 @@ dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+kolbasa.scale-100.jpg
 pizza.scale-100.png
 pizza.scale-125.png
 pizza.scale-150.png

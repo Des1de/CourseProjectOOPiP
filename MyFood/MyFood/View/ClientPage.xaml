@@ -5,8 +5,10 @@
              BackgroundColor="White"
              xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
              xmlns:viewmodel="clr-namespace:MyFood.ViewModel"
+             xmlns:model ="clr-namespace:MyFood.Model"
              x:DataType="viewmodel:ClientViewModel"
-             Shell.BackgroundColor ="Black">
+             Shell.BackgroundColor ="Black"
+             >
     <Page.Behaviors>
         <mct:StatusBarBehavior StatusBarColor="Black"
                                StatusBarStyle="Default"></mct:StatusBarBehavior>
@@ -24,6 +26,52 @@
                ></Image>
         </Frame>
 
+        <CollectionView BackgroundColor="Transparent"
+                        Grid.Row="1"
+                        VerticalScrollBarVisibility="Always"
+                        ItemsSource="{Binding Dishes}"
+                        IsVisible="True"
+                        >
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Dish">
+                    <Frame HorizontalOptions="Fill" Margin="10,5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Source={RelativeSource 
+                                AncestorType={x:Type viewmodel:ClientViewModel}},
+                                Path=GoToProductCommand}" CommandParameter="{Binding .}"/>
+                        </Frame.GestureRecognizers>
+                        <Grid BackgroundColor="Transparent" RowSpacing="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding ProductImage}"
+                                   VerticalOptions="Fill"
+                                   Grid.RowSpan="2"
+                                   HeightRequest="70"/>
+                            <Label Text="{Binding Name}"
+                                   Grid.Column="1"
+                                   TextColor="Black"
+                                   VerticalOptions="Center"
+                                   FontSize="Medium"
+                                   HorizontalOptions="Center"/>
+                            <Label Text="{Binding Price}"
+                                   Grid.Column="1"
+                                   Grid.Row="1"
+                                   TextColor="Black"
+                                   VerticalOptions="Center"
+                                   FontSize="Medium"
+                                   HorizontalOptions="Center"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
         
         <Frame BackgroundColor="White"
                HeightRequest="75"
@@ -31,6 +79,12 @@
                CornerRadius="90"
                Grid.Row="2"
                >
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer
+                    Command="{Binding CartCommand}">
+                    
+                </TapGestureRecognizer>
+            </Frame.GestureRecognizers>
             <Image Source="basket.svg" WidthRequest="70"
                ></Image>
         </Frame>

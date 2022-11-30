@@ -949,6 +949,21 @@
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\basket.scale-100.png">
+      <PackagePath>basket.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\basket.scale-125.png">
+      <PackagePath>basket.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\basket.scale-150.png">
+      <PackagePath>basket.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\basket.scale-200.png">
+      <PackagePath>basket.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\basket.scale-400.png">
+      <PackagePath>basket.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\berger.scale-100.jpg">
       <PackagePath>berger.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
@@ -981,6 +996,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\kolbasa.scale-100.jpg">
+      <PackagePath>kolbasa.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pizza.scale-100.png">
       <PackagePath>pizza.scale-100.png</PackagePath>

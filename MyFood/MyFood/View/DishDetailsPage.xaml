@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFood.View.DishDetailsPage"
+             BackgroundColor="White"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             xmlns:viewmodel="clr-namespace:MyFood.ViewModel"
+             xmlns:model ="clr-namespace:MyFood.Model"
+             x:DataType="viewmodel:DishDetailsViewModel"
+             Title="{Binding CurrentDish.Name}"
+             Shell.BackgroundColor ="Black">
+    <Page.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="Black"
+                               StatusBarStyle="Default"></mct:StatusBarBehavior>
+    </Page.Behaviors>
+
+    <VerticalStackLayout Margin="40,40,20,0" Padding="30" Spacing="60">
+            
+            <Image Source="{Binding CurrentDish.ProductImage}"
+                   HeightRequest="150"
+                   ></Image>
+            <Label Text="{Binding CurrentDish.Name}"
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   FontSize="50"
+                   FontAttributes="Bold"
+                   ></Label>
+            <Label Text="{Binding CurrentDish.Description, StringFormat='Описание: {0}'}"
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   ></Label>
+        <StackLayout Spacing="20">
+            <Label Text="{Binding CurrentDish.Price, StringFormat='Цена: {0:F2}$'}"
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   ></Label>
+            <Button Text="В корзину"
+                BorderWidth="3"
+                WidthRequest="200"
+                HeightRequest="50"
+                TextColor="Black"
+                FontSize="20"
+                BackgroundColor ="White"
+                BorderColor="Black"
+                    CornerRadius="20"
+               Command="{Binding AddToCartCommand}">
+            </Button>
+        </StackLayout>
+    </VerticalStackLayout>
+    
+</ContentPage>

@@ -1003,6 +1003,11 @@ D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-m
 D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\bwburger.png
 D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\bwburger.png
 D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\bwburger.png
+D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\basket.png
+D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\basket.png
+D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\basket.png
+D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\basket.png
+D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\basket.png
 D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\android\assets\mscorlib.dll
 D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
 D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\android\assets\System.Data.dll
@@ -1011,8 +1016,4 @@ D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\android\assets\System.Ne
 D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\android\assets\System.Xml.dll
-D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\basket.png
-D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\basket.png
-D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\basket.png
-D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\basket.png
-D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\basket.png
+D:\CourseProject\MyFood\MyFood\obj\Debug\net6.0-android\resizetizer\r\drawable\kolbasa.jpg

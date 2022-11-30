@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFood.View.RegistrationPage"
+             Title="RegestrationPage"
+             BackgroundColor="White"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             xmlns:viewmodel="clr-namespace:MyFood.ViewModel"
+             x:DataType="viewmodel:RegistrationViewModel">
+    <Page.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="Black"
+                               StatusBarStyle="Default"></mct:StatusBarBehavior>
+    </Page.Behaviors>
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+            
+            <Label Text="Регистрация" 
+                   Grid.Row ="0"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   VerticalOptions="Center"
+                   TextColor="Black"
+                   FontSize="48"
+                   BackgroundColor="White"
+                   >
+            </Label>
+            
+            <Frame HeightRequest="55"
+                   WidthRequest="285"
+                   HorizontalOptions="Center"
+                   CornerRadius="20"
+                   BorderColor="Black"
+                   >
+                <Entry
+                    Text="{Binding Login, Mode=TwoWay}"
+                    Placeholder="Логин"
+                  HeightRequest="50"
+                    FontSize="24"
+                    WidthRequest="250"
+                   MaxLength="16"
+                   Grid.Row="1"
+                   HorizontalOptions="Center"
+                   PlaceholderColor="Black"
+                   FontAttributes="Bold"
+                   TextColor="Black">
+                </Entry>
+            </Frame>
+            <Frame HeightRequest="55"
+                   WidthRequest="285"
+                   HorizontalOptions="Center"
+                   CornerRadius="20"
+                   BorderColor="Black"
+                   >
+                <Entry
+                    Text="{Binding Password, Mode=TwoWay}"
+                    Placeholder="Пароль"
+                   IsPassword="True"
+                   FontSize="24"
+                   MaxLength="16"
+                   Grid.Row="1"
+                   HorizontalOptions="Center"
+                   PlaceholderColor="Black"
+                   FontAttributes="Bold"
+                   WidthRequest="250"
+                   HeightRequest="50"
+                   TextColor="Black">
+                </Entry>
+            </Frame>
+            <Frame HeightRequest="55"
+                   WidthRequest="285"
+                   HorizontalOptions="Center"
+                   CornerRadius="20"
+                   BorderColor="Black"
+                   >
+                <Entry Placeholder="Повторите пароль"
+                       Text="{Binding RPassword, Mode=TwoWay}"
+                   IsPassword="True"
+                   FontSize="24"
+                   MaxLength="16"
+                   Grid.Row="1"
+                   HorizontalOptions="Center"
+                   PlaceholderColor="Black"
+                   FontAttributes="Bold"
+                   WidthRequest="250"
+                   HeightRequest="50"
+                   TextColor="Black">
+                </Entry>
+            </Frame>
+            <Button Grid.Row="5"
+                Text="Создать"
+                BorderWidth="3"
+                WidthRequest="200"
+                HeightRequest="50"
+                TextColor="Black"
+                FontSize="20"
+                BackgroundColor ="White"
+                BorderColor="Black"
+                    CornerRadius="20"
+               Command="{Binding CreateAccountCommand}"
+                >
+
+
+            </Button>
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

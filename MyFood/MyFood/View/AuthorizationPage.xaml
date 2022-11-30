@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFood.AuthorizationPage"
+             BackgroundColor="White"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             xmlns:viewmodel="clr-namespace:MyFood.ViewModel"
+             x:DataType="viewmodel:AuthorizationViewModel"
+             Shell.BackgroundColor ="Black"
+            
+             >
+    
+    <Page.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="Black"
+                               StatusBarStyle="Default"></mct:StatusBarBehavior>
+    </Page.Behaviors>
+
+    <StackLayout>
+        <Grid HeightRequest ="700"
+              VerticalOptions="Center"
+              BackgroundColor="White"
+              Padding="10"
+              RowSpacing="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+        <Frame BackgroundColor="White"
+               HeightRequest="120"
+               WidthRequest="120"
+               CornerRadius="90"
+               >
+            <Image Source="bwburger.svg" WidthRequest="100"
+               ></Image>
+        </Frame>
+        <Frame BorderColor="Black"
+               BackgroundColor="WhiteSmoke"
+               
+               CornerRadius="20"
+               HeightRequest="55"
+               WidthRequest="270"
+               Grid.Row="1">
+            <Entry Placeholder="Логин"
+                   Text="{Binding Login, Mode=TwoWay}"
+                   FontSize="24"
+                   MaxLength="16"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   PlaceholderColor="Black"
+                   FontAttributes="Bold"
+                   WidthRequest="250"
+                   HeightRequest="50"
+                   TextColor="Black">
+                
+            </Entry>
+        </Frame>
+
+
+
+        <Frame BorderColor="Black"
+               BackgroundColor="WhiteSmoke"
+               
+               CornerRadius="20"
+               HeightRequest="55"
+               WidthRequest="270"
+               Grid.Row="2">
+            <Entry Placeholder="Пароль"
+                   Text ="{Binding Password, Mode=TwoWay}"
+                   FontSize="24"
+                   MaxLength="20"
+                   IsPassword="True"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   PlaceholderColor="Black"
+                   FontAttributes="Bold"
+                   WidthRequest="250"
+               HeightRequest="50"
+                   TextColor="Black">
+            </Entry>
+        </Frame>
+        <Button Grid.Row="4"
+                
+                Text="Войти"
+                BorderWidth="3"
+                WidthRequest="200"
+                HeightRequest="50"
+                TextColor="Black"
+                FontSize="20"
+                BackgroundColor ="White"
+                BorderColor="Black"
+                CornerRadius="20"
+                Command="{Binding SignInCommand}"
+                >
+                
+            </Button>
+
+            <Button Grid.Row="5"
+                Text="Регистрация"
+                BorderWidth="3"
+                WidthRequest="200"
+                HeightRequest="50"
+                TextColor="Black"
+                FontSize="20"
+                BackgroundColor ="White"
+                BorderColor="Black"
+                    CornerRadius="20"
+               Command="{Binding SignUpCommand}"
+                >
+               
+           
+            </Button>
+
+    </Grid>
+    </StackLayout>
+
+</ContentPage>

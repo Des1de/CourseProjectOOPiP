@@ -1,6 +1,7 @@
 ﻿using MyFood.View;
 using MyFood.ViewModel;
 using CommunityToolkit.Maui;
+using MyFood.Services;
 
 namespace MyFood;
 public static class MauiProgram
@@ -17,16 +18,26 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-		builder.Services.AddSingleton<MainPage>();
-        builder.Services.AddSingleton<MainViewModel>();
+		builder.Services.AddTransient<AuthorizationPage>();
+        builder.Services.AddTransient<AuthorizationViewModel>();
 
 
-        builder.Services.AddTransient<RegestrationPage>();
-        builder.Services.AddTransient<RegestrationViewModel>();
+        builder.Services.AddTransient<RegistrationPage>();
+        builder.Services.AddTransient<RegistrationViewModel>();
 
         builder.Services.AddTransient<ClientPage>();
         builder.Services.AddTransient<ClientViewModel>();
 
+        builder.Services.AddTransient<CartPage>();
+        builder.Services.AddTransient<CartViewModel>();
+
+        builder.Services.AddTransient<DishDetailsPage>();
+        builder.Services.AddTransient<DishDetailsViewModel>();
+
+        builder.Services.AddSingleton<AuthorizationService>();
+        builder.Services.AddSingleton<AccountCreationService>();
+        builder.Services.AddSingleton<DishService>();
+        builder.Services.AddSingleton<CartService>();
         return builder.Build();
 	}
 }
